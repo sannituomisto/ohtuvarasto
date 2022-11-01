@@ -79,5 +79,4 @@ class TestVarasto(unittest.TestCase):
 
         self.varasto.ota_varastosta(4)
 
-
         self.assertAlmostEqual(str(self.varasto.__str__()), "saldo = 4, vielä tilaa 6")
