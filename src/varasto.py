@@ -2,7 +2,7 @@ class Varasto:
     def __init__(self, tilavuus, alku_saldo = 0):
 
         self.tilavuus=self.tilavuus_tarkistus(tilavuus)
- 
+
         if alku_saldo < 0.0:
             # virheellinen, nollataan
             self.saldo = 0.0
